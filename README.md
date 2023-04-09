@@ -3,8 +3,11 @@
 My implementation of GrovePI kit, to monitor temperature and humidity where I put my RPi.
 Requires 32-bit Raspbian for the GrovePi stuff to install.
 
-Display is plugged to I2C-1.
-Temperature sensor is plugged to D7.
-Button sits with D4.
+- Display is plugged to I2C-1.
+- Temperature sensor is plugged to D7.
+- Button sits with D4.
+
+Reference URL for GrovePi.
+https://github.com/DexterInd/GrovePi
 
 Also set up a service via systemctl to start up the code, so it works headless.
